@@ -497,7 +497,7 @@
   justify-content: center;
   overflow: hidden;
   text-align: center;
-  padding: var(--space-12) var(--space-4);
+  padding: var(--space-20) var(--space-4) var(--space-12);
 }
 
 .hero-bg {
@@ -546,8 +546,8 @@
 }
 
 .hero-logo-img {
-  width: 96px;
-  height: 96px;
+  width: 76px;
+  height: 76px;
   border-radius: var(--radius-full);
   object-fit: cover;
   box-shadow: 0 4px 20px rgba(232,99,74,0.3);
@@ -558,8 +558,8 @@
 
 @media (min-width: 768px) {
   .hero-logo-img {
-    width: 120px;
-    height: 120px;
+    width: 96px;
+    height: 96px;
   }
 }
 
