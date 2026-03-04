@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'Étoile de Mer Toliara — Restaurant, fruits de mer, concerts & événements à Toliara, Madagascar</title>
+  <meta name="description" content="Depuis 1987, L'Étoile de Mer est le restaurant incontournable de Toliara. Fruits de mer frais, pizzas au feu de bois, cuisine malagasy & indienne, cocktails tropicaux. Concerts live, dîners dansants, mariages & séminaires. Boulevard Lyautey, bord de mer.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./favicon.ico" sizes="32x32">
+  <link rel="icon" href="./assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="./assets/favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+
+  <!-- Open Graph (Facebook, Messenger, WhatsApp, Telegram, LinkedIn) -->
+  <meta property="og:site_name" content="L'Étoile de Mer Toliara">
+  <meta property="og:title" content="L'Étoile de Mer Toliara — Restaurant & Événements depuis 1987">
+  <meta property="og:description" content="Fruits de mer frais, pizzas au feu de bois, saveurs malagasy & indiennes. Concerts live, mariages, séminaires. Boulevard Lyautey, bord de mer, Toliara, Madagascar.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/setting-concert.jpg">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Twitter Card (aussi utilisé par d'autres apps) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="L'Étoile de Mer Toliara — Restaurant & Événements depuis 1987">
+  <meta name="twitter:description" content="Fruits de mer frais, pizzas au feu de bois, saveurs malagasy & indiennes. Concerts live, mariages, séminaires. Toliara, Madagascar.">
+  <meta name="twitter:image" content="./assets/setting-concert.jpg">
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=DM+Sans:ital,wght@0,300..600;1,300..600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- =============================================
+       NAVIGATION
+       ============================================= -->
+  <nav class="nav" role="navigation" aria-label="Navigation principale">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Étoile de Mer — Accueil">
+        <img src="./assets/logo-etoile-de-mer.jpg" alt="Logo Étoile de Mer" class="nav-logo-img">
+        <span>L'Étoile de Mer</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#apropos" data-i18n="nav_apropos">Notre Histoire</a></li>
+        <li><a href="#carte" data-i18n="nav_carte">Carte</a></li>
+        <li><a href="#evenements" data-i18n="nav_evenements">Événements</a></li>
+        <li><a href="#ambiance" data-i18n="nav_ambiance">Ambiance</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <!-- Language switcher -->
+        <div class="lang-switcher" role="listbox" aria-label="Choisir la langue">
+          <button class="lang-btn active" data-lang="fr" aria-label="Français" title="Français">FR</button>
+          <button class="lang-btn" data-lang="mg" aria-label="Malagasy" title="Malagasy">MG</button>
+          <button class="lang-btn" data-lang="en" aria-label="English" title="English">EN</button>
+        </div>
+        <button data-theme-toggle aria-label="Basculer en mode sombre" class="theme-toggle">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Menu de navigation">
+    <div class="mobile-lang-switcher">
+      <button class="lang-btn active" data-lang="fr">FR</button>
+      <button class="lang-btn" data-lang="mg">MG</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a href="#apropos" data-i18n="nav_apropos">Notre Histoire</a>
+    <a href="#carte" data-i18n="nav_carte">Carte</a>
+    <a href="#evenements" data-i18n="nav_evenements">Événements</a>
+    <a href="#ambiance" data-i18n="nav_ambiance">Ambiance</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+  </div>
+
+  <!-- =============================================
+       1. HERO
+       ============================================= -->
+  <section class="hero" id="accueil">
+    <div class="hero-bg">
+      <img src="./assets/setting-concert.jpg" alt="Tables élégantes avec scène et guirlandes lumineuses au restaurant L'Étoile de Mer Toliara" width="1920" height="1080" fetchpriority="high">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <!-- Real logo image -->
+      <div class="hero-logo" aria-hidden="true">
+        <img src="./assets/logo-etoile-de-mer.jpg" alt="Logo Étoile de Mer" class="hero-logo-img">
+      </div>
+      <h1 class="hero-title"><span class="hero-title-name">L'Étoile de Mer</span><br><span class="hero-title-location">Toliara</span></h1>
+      <p class="hero-since" data-i18n="hero_since">Depuis 1987</p>
+      <p class="hero-tagline" data-i18n="hero_tagline">Un océan de saveurs dans chaque assiette</p>
+      <div class="hero-social">
+        <a href="https://www.instagram.com/etoiledemertoliara/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <span class="hero-social-divider"></span>
+        <a href="https://www.facebook.com/Jamet.sandrine601/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Facebook">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero_cta_reserver">Réserver une table</a>
+        <a href="#carte" class="btn btn-outline-coral" data-i18n="hero_cta_carte">Découvrir notre carte</a>
+        <a href="#evenements" class="btn btn-outline-gold" data-i18n="hero_cta_evenement">Organiser un événement</a>
+        <a href="#contact" class="btn btn-outline-light">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          <span data-i18n="hero_cta_livraison">Livraison</span>
+        </a>
+      </div>
+    </div>
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- =============================================
+       2. NOTRE HISTOIRE (Story)
+       ============================================= -->
+  <section class="story" id="apropos">
+    <div class="story-intro reveal">
+      <p class="section-label" data-i18n="story_label">Notre Histoire</p>
+      <h2 class="story-heading"><span data-i18n="story_heading_1">Trois générations,</span><br><span data-i18n="story_heading_2">une passion.</span></h2>
+    </div>
+
+    <div class="story-content">
+      <div class="story-narrative reveal">
+        <div class="story-year" aria-hidden="true">1987</div>
+        <p class="story-text story-text-lead" data-i18n="story_text1">Depuis 1987, L'Étoile de Mer est bien plus qu'un restaurant — c'est une institution de Toliara.</p>
+        <p class="story-text" data-i18n="story_text2">Niché sur le Boulevard Lyautey (Bord de Mer), ce lieu a vu trois générations se succéder derrière les fourneaux et en salle.</p>
+        <p class="story-text" data-i18n="story_text3">Aujourd'hui, Sandrine et Laya perpétuent cette tradition avec la même passion et la même générosité qui ont fait la réputation de la maison. Chaque plat raconte une histoire, chaque soirée crée un souvenir, et chaque visiteur devient un ami.</p>
+      </div>
+      <div class="story-image reveal">
+        <img src="./assets/edm-bar.jpg" alt="Le bar coloré de L'Étoile de Mer Toliara" width="800" height="600" loading="lazy">
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- =============================================
+       2b. LE LIEU
+       ============================================= -->
+  <section class="lieu" id="lieu">
+    <div class="lieu-content">
+      <div class="lieu-image reveal">
+        <img src="./assets/patio.jpg" alt="Terrasse tropicale de nuit avec coussins colorés et palmiers à L'Étoile de Mer Toliara" width="800" height="600" loading="lazy">
+      </div>
+      <div class="lieu-text reveal">
+        <p class="section-label" data-i18n="lieu_label">Le Lieu</p>
+        <h2 class="lieu-heading" data-i18n="lieu_heading">Un cadre unique face à l'océan</h2>
+        <p class="lieu-desc" data-i18n="lieu_desc1">Terrasse ombragée par les palmiers, bar coloré et fresque d'ailes emblématique — L'Étoile de Mer offre un cadre unique face au soleil de Toliara.</p>
+        <p class="lieu-desc" data-i18n="lieu_desc2">Notre scène en plein air, régulièrement animée par D-Lain, Wawa, Denise, Shyn, Big MJ et bien d'autres, est le cœur battant de la ville. Des fruits de mer pêchés du jour aux pizzas au feu de bois, en passant par les saveurs malagasy et indiennes — la carte est aussi riche que généreuse.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       3. PARALLAX DIVIDER
+       ============================================= -->
+  <div class="parallax-divider" role="img" aria-label="Plage d'Ifaty près de Toliara">
+    <div class="parallax-overlay"></div>
+    <blockquote class="parallax-quote" data-i18n="parallax_quote">Là où l'océan rencontre la saveur</blockquote>
+  </div>
+
+  <!-- =============================================
+       4. NOTRE CARTE — Menu complet interactif
+       ============================================= -->
+  <section class="menu-section" id="carte">
+    <div class="menu-section-header reveal">
+      <p class="section-label" data-i18n="carte_label">Notre Carte</p>
+      <h2 class="section-heading" data-i18n="carte_heading">Nos Spécialités</h2>
+      <p class="section-text" style="margin-inline:auto; text-align:center;" data-i18n="carte_text">Les trésors de l'océan, les saveurs du feu de bois et nos cocktails signature.</p>
+    </div>
+
+    <!-- Visual Preview Cards (appetizers) — clickable to switch tab -->
+    <div class="menu-preview-cards reveal-stagger" aria-label="Aperçu de nos spécialités">
+      <button class="menu-preview-card" data-tab="fruitsmer" aria-label="Voir les Fruits de Mer">
+        <img src="./assets/plateau-fruits-mer.jpg" alt="Plateau royal de fruits de mer avec langouste grillée et crevettes" width="600" height="400" loading="lazy">
+        <div class="menu-preview-card-body">
+          <h3 class="menu-preview-card-title">🦐 Fruits de Mer</h3>
+          <p class="menu-preview-card-desc" data-i18n="spec_fruitsmer_desc">Langoustes, crevettes et poissons du jour grillés à la perfection sur feuille de bananier.</p>
+        </div>
+      </button>
+      <button class="menu-preview-card" data-tab="malagasy" aria-label="Voir les Saveurs Malagasy">
+        <img src="./assets/saveurs-malagasy.jpg" alt="Plats malgaches traditionnels: ravitoto, romazava et riz blanc" width="600" height="400" loading="lazy">
+        <div class="menu-preview-card-body">
+          <h3 class="menu-preview-card-title">🇲🇬 Saveurs Malagasy</h3>
+          <p class="menu-preview-card-desc" data-i18n="trad_malagasy_desc">Ravitoto, romazava, vary amin'anana… Les plats emblématiques de Madagascar cuisinés avec amour.</p>
+        </div>
+      </button>
+      <button class="menu-preview-card" data-tab="indien" aria-label="Voir la Cuisine Indienne">
+        <img src="./assets/cuisine-indienne.jpg" alt="Cuisine indienne avec biryani, butter chicken et naan" width="600" height="400" loading="lazy">
+        <div class="menu-preview-card-body">
+          <h3 class="menu-preview-card-title">🇮🇳 Cuisine Indienne</h3>
+          <p class="menu-preview-card-desc" data-i18n="trad_indien_desc">Naan, biryani, tandoori et currys parfumés — un voyage de saveurs venu d'Orient.</p>
+        </div>
+      </button>
+      <button class="menu-preview-card" data-tab="pizzas" aria-label="Voir les Pizzas">
+        <img src="./assets/pizza-feu-de-bois.jpg" alt="Pizza artisanale sortant du four à bois" width="600" height="400" loading="lazy">
+        <div class="menu-preview-card-body">
+          <h3 class="menu-preview-card-title">🍕 Pizzas au Feu de Bois</h3>
+          <p class="menu-preview-card-desc" data-i18n="spec_pizza_desc">Cuites dans notre four artisanal, garnies d'ingrédients frais et locaux, croustillantes à souhait.</p>
+        </div>
+      </button>
+      <button class="menu-preview-card" data-tab="desserts" aria-label="Voir les Desserts">
+        <img src="./assets/desserts-maison.jpg" alt="Desserts tropicaux maison" width="600" height="400" loading="lazy">
+        <div class="menu-preview-card-body">
+          <h3 class="menu-preview-card-title">🍨 Desserts Maison</h3>
+          <p class="menu-preview-card-desc" data-i18n="trad_desserts_desc">Panna cotta au coco, crème brûlée vanille et sorbets aux fruits tropicaux.</p>
+        </div>
+      </button>
+    </div>
+
+    <!-- ── INTERACTIVE MENU ────────────────────── -->
+    <div class="menu-interactive" id="menu-interactive">
+
+      <div class="menu-interactive-header">
+        <h3 class="menu-interactive-title" data-i18n="menu_interactive_title">Notre Menu</h3>
+        <p class="menu-interactive-subtitle" data-i18n="menu_interactive_subtitle">Cliquez sur une catégorie pour explorer</p>
+      </div>
+
+      <!-- Tab Bar -->
+      <div class="menu-tab-wrapper" role="tablist" aria-label="Catégories du menu" id="menu-tablist">
+        <div class="menu-tab-scroll">
+          <button class="menu-tab active" role="tab" aria-selected="true"  aria-controls="tab-fruitsmer"  id="tab-btn-fruitsmer"  data-tab="fruitsmer">🦐 <span data-i18n="menu_tab_fruitsmer">Fruits de Mer</span></button>
+          <button class="menu-tab"        role="tab" aria-selected="false" aria-controls="tab-entrees"    id="tab-btn-entrees"    data-tab="entrees">🥗 <span data-i18n="menu_tab_entrees">Entrées &amp; Salades</span></button>
+          <button class="menu-tab"        role="tab" aria-selected="false" aria-controls="tab-viandes"    id="tab-btn-viandes"    data-tab="viandes">🥩 <span data-i18n="menu_tab_viandes">Viandes &amp; Volailles</span></button>
+          <button class="menu-tab"        role="tab" aria-selected="false" aria-controls="tab-pates"      id="tab-btn-pates"      data-tab="pates">🍝 <span data-i18n="menu_tab_pates">Pâtes</span></button>
+          <button class="menu-tab"        role="tab" aria-selected="false" aria-controls="tab-malagasy"   id="tab-btn-malagasy"   data-tab="malagasy">🇲🇬 <span data-i18n="menu_tab_malagasy">Saveurs Malagasy</span></button>
+          <button class="menu-tab"        role="tab" aria-selected="false" aria-controls="tab-indien"     id="tab-btn-indien"     data-tab="indien">🇮🇳 <span data-i18n="menu_tab_indien">Cuisine Indienne</span></button>
+          <button class="menu-tab"        role="tab" aria-selected="false" aria-controls="tab-pizzas"     id="tab-btn-pizzas"     data-tab="pizzas">🍕 <span data-i18n="menu_tab_pizzas">Pizzas</span></button>
+          <button class="menu-tab"        role="tab" aria-selected="false" aria-controls="tab-desserts"   id="tab-btn-desserts"   data-tab="desserts">🍨 <span data-i18n="menu_tab_desserts">Desserts</span></button>
+        </div>
+      </div>
+
+      <!-- ── TAB PANELS ── -->
+
+      <!-- FRUITS DE MER -->
+      <div class="menu-panel active" role="tabpanel" id="tab-fruitsmer" aria-labelledby="tab-btn-fruitsmer">
+        <div class="menu-panel-inner">
+          <div class="menu-category-header">
+            <p class="menu-category-label">⭐ <span data-i18n="menu_specialite">La spécialité de la maison</span></p>
+          </div>
+
+          <!-- Featured: Le Plateau Royal -->
+          <div class="menu-featured-card">
+            <div class="menu-featured-badge" data-i18n="menu_featured_badge">À partager · Pour 2 personnes</div>
+            <div class="menu-featured-content">
+              <div class="menu-featured-title-row">
+                <h3 class="menu-featured-title">Le Plateau Royal</h3>
+                <span class="menu-featured-price">160.000 Ar</span>
+              </div>
+              <p class="menu-featured-desc" data-i18n="menu_plateau_desc">Langoustes · Cigales · Crevettes · Calamar · Poisson · Crabes</p>
+            </div>
+          </div>
+
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Brochettes de poisson sauce combava</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Filet de poisson sauce estragon</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Filet de poisson meunière</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Thon frit au citron</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Crabe sauté à l'ail et au persil</span><span class="menu-item-dots"></span><span class="menu-item-price">35.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Crevettes curry coco</span><span class="menu-item-dots"></span><span class="menu-item-price">38.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Crevettes sautées à l'ail et au persil</span><span class="menu-item-dots"></span><span class="menu-item-price">38.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Calamar grillé à la moutarde</span><span class="menu-item-dots"></span><span class="menu-item-price">38.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Calamar sauté à l'ail et au persil</span><span class="menu-item-dots"></span><span class="menu-item-price">38.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Cigales de mer grillées</span><span class="menu-item-dots"></span><span class="menu-item-price">60.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Langoustes grillées</span><span class="menu-item-dots"></span><span class="menu-item-price">60.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Curry de langoustes</span><span class="menu-item-dots"></span><span class="menu-item-price">60.000 Ar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ENTRÉES & SALADES -->
+      <div class="menu-panel" role="tabpanel" id="tab-entrees" aria-labelledby="tab-btn-entrees" hidden>
+        <div class="menu-panel-inner">
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_salades">Les Salades</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Salade de poulet aux croûtons</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Salade à la grecque façon Étoile de Mer <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Salade niçoise façon Étoile de Mer</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Salade au thon fumé <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Salade de fruits de mer <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_entrees">Les Entrées</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Soupe chinoise</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Potage de légumes aux croûtons</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Carpaccio de zébu ou poisson</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Gratin de fruits de mer</span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Crabe farci <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Cocktail de crevettes <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Assiette de thon fumé <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Camembert pané</span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Escargots au beurre d'ail et persil</span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Tapas terre-mer</span><span class="menu-item-dots"></span><span class="menu-item-price">25.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Nems aux fruits de mer</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Crudités</span><span class="menu-item-dots"></span><span class="menu-item-price">15.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Salade niçoise</span><span class="menu-item-dots"></span><span class="menu-item-price">25.000 Ar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- VIANDES & VOLAILLES -->
+      <div class="menu-panel" role="tabpanel" id="tab-viandes" aria-labelledby="tab-btn-viandes" hidden>
+        <div class="menu-panel-inner">
+
+          <div class="menu-info-bar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+            <span data-i18n="menu_sauces">Sauces au choix : Moutarde · Poivre vert · Bleu et camembert</span>
+          </div>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_viandes">Les Viandes</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Filet de zébu poêlé</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Médaillon de zébu poêlé</span><span class="menu-item-dots"></span><span class="menu-item-price">35.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Pavé de zébu poêlé</span><span class="menu-item-dots"></span><span class="menu-item-price">35.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Brochettes de filet de zébu</span><span class="menu-item-dots"></span><span class="menu-item-price">38.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Cheese burger / frites</span><span class="menu-item-dots"></span><span class="menu-item-price">23.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Roast-beef / frites / salade</span><span class="menu-item-dots"></span><span class="menu-item-price">38.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Steak à l'oignon</span><span class="menu-item-dots"></span><span class="menu-item-price">33.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Côte de zébu grillée</span><span class="menu-item-dots"></span><span class="menu-item-price">35.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_volailles">Les Volailles</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Nuggets de poulet / frites</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Brochettes de poulet</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Cuisse de poulet grillée à l'indienne</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Émincé de magret de canard au miel</span><span class="menu-item-dots"></span><span class="menu-item-price">50.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Magret de canard poêlé</span><span class="menu-item-dots"></span><span class="menu-item-price">50.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Émincé de poulet aux champignons</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+          </ul>
+
+          <div class="menu-info-bar menu-info-bar-soft">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <span data-i18n="menu_accompagnements">Accompagnements : Frites · Pommes sautées · Légumes sautés · Purée · Pâtes · Riz · Salade verte</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PÂTES -->
+      <div class="menu-panel" role="tabpanel" id="tab-pates" aria-labelledby="tab-btn-pates" hidden>
+        <div class="menu-panel-inner">
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Spaghetti bolognaise</span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Penne ou fusilli au pesto</span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Spaghetti aux fruits de mer <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">30.000 Ar</span></li>
+            <li class="menu-item menu-item-arrivage"><span class="menu-item-name">Spaghetti carbonara au thon fumé <span class="menu-badge-arrivage" data-i18n="menu_badge_arrivage">Arrivage du jour</span></span><span class="menu-item-dots"></span><span class="menu-item-price">30.000 Ar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SAVEURS MALAGASY -->
+      <div class="menu-panel" role="tabpanel" id="tab-malagasy" aria-labelledby="tab-btn-malagasy" hidden>
+        <div class="menu-panel-inner">
+          <div class="menu-category-header">
+            <p class="menu-category-label">🇲🇬 <span data-i18n="menu_malagasy_subtitle">L'âme de la Grande Île dans votre assiette</span></p>
+          </div>
+
+          <div class="menu-info-bar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <span data-i18n="menu_malagasy_accomp">Accompagnements au choix : Tsaramaso · Kabaro · Ro matsatso · Rougail</span>
+          </div>
+
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Romazava de zébu</span><span class="menu-item-dots"></span><span class="menu-item-price">25.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Henakisoa vitra et riz</span><span class="menu-item-dots"></span><span class="menu-item-price">25.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Capitaine entier frit et riz</span><span class="menu-item-dots"></span><span class="menu-item-price">35.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Kitoza &amp; Vary amin'ny anana</span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Akoho gasy vitra et riz</span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Vorontsiloza vitra</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Langue sauce piquante aux petits pois</span><span class="menu-item-dots"></span><span class="menu-item-price">25.000 Ar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CUISINE INDIENNE -->
+      <div class="menu-panel" role="tabpanel" id="tab-indien" aria-labelledby="tab-btn-indien" hidden>
+        <div class="menu-panel-inner">
+          <div class="menu-category-header">
+            <p class="menu-category-label">🌶 <span data-i18n="menu_indien_subtitle">Les épices du voyage</span></p>
+          </div>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_naans">Les Naans</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Naan nature</span><span class="menu-item-dots"></span><span class="menu-item-price">6.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Naan fromage</span><span class="menu-item-dots"></span><span class="menu-item-price">10.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Naan chicken</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Naan crevettes</span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Naan brochettes</span><span class="menu-item-dots"></span><span class="menu-item-price">17.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_paratas">Les Paratas</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Parata nature</span><span class="menu-item-dots"></span><span class="menu-item-price">6.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chicken parata</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Kheema parata</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Aloo parata</span><span class="menu-item-dots"></span><span class="menu-item-price">17.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_currys">Les Currys &amp; Spécialités</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Butter chicken</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chicken tikka curry</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chicken curry</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chicken biryani</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chicken tikka biryani</span><span class="menu-item-dots"></span><span class="menu-item-price">32.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chicken fry rice</span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Légumes curry</span><span class="menu-item-dots"></span><span class="menu-item-price">22.000 Ar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PIZZAS -->
+      <div class="menu-panel" role="tabpanel" id="tab-pizzas" aria-labelledby="tab-btn-pizzas" hidden>
+        <div class="menu-panel-inner">
+          <div class="menu-category-header">
+            <p class="menu-category-label">🔥 <span data-i18n="menu_pizza_subtitle">Cuites au feu de bois · Pâte maison</span></p>
+          </div>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_pizza_veg">Végétariennes</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Classica <span class="menu-item-detail">Fromage, tomates</span></span><span class="menu-item-dots"></span><span class="menu-item-price">25.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Végétarienne <span class="menu-item-detail">Aubergine, oignon, poivron, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Margarita <span class="menu-item-detail">Fromage, olives noires</span></span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Coquelicot <span class="menu-item-detail">Fromage, œuf</span></span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chêne <span class="menu-item-detail">Champignon de Paris, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Cachemire <span class="menu-item-detail">Maïs doux, poivrons, oignons, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Quatre Fromage <span class="menu-item-detail">Camembert, bleu</span></span><span class="menu-item-dots"></span><span class="menu-item-price">33.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Quatre Fromage <span class="menu-item-detail">Camembert</span></span><span class="menu-item-dots"></span><span class="menu-item-price">29.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_pizza_mer">Fruits de Mer</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Cuivre <span class="menu-item-detail">Thon, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Neptune <span class="menu-item-detail">Thon, olives noires, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Californienne <span class="menu-item-detail">Sardines, oignons, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Marina <span class="menu-item-detail">Crevettes, calamars, thon, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">29.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Pacifico <span class="menu-item-detail">Thon fumé, crème fraîche, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">29.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Altono <span class="menu-item-detail">Crevettes, thon, câpres, ail, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">29.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Corail <span class="menu-item-detail">Crevettes, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">29.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Sicilienne <span class="menu-item-detail">Anchois, olives noires, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">30.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_pizza_viande">Viandes &amp; Poulets</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Chicken 1er choix <span class="menu-item-detail">Poulet, champignon, crème fraîche</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chicken 2ème choix <span class="menu-item-detail">Poulet, poivron, oignon, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Chinchilla <span class="menu-item-detail">Viande hachée, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Cheri <span class="menu-item-detail">Jambon de volaille, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Capella <span class="menu-item-detail">Merguez, poivrons, oignons, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">29.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Presto <span class="menu-item-detail">Jambon, poivrons, oignons, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">30.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Napolitain <span class="menu-item-detail">Jambon, poivrons, oignons, œuf</span></span><span class="menu-item-dots"></span><span class="menu-item-price">30.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Reine <span class="menu-item-detail">Jambon, champignon de Paris, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">30.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_pizza_exo">Exotiques</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Hawaïenne 1er choix <span class="menu-item-detail">Jambon, ananas, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">28.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Hawaïenne 2nd choix <span class="menu-item-detail">Ananas, tomates, fromage</span></span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Antillaise <span class="menu-item-detail">Poulet, ananas, poivron, oignons</span></span><span class="menu-item-dots"></span><span class="menu-item-price">30.000 Ar</span></li>
+          </ul>
+
+          <p class="menu-sub-heading" data-i18n="menu_sub_pizza_sucrees">Sucrées</p>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Pizza Banane-Choco</span><span class="menu-item-dots"></span><span class="menu-item-price">25.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Pizza Poire-Cannelle</span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Pizza Poire-Choco-Cannelle</span><span class="menu-item-dots"></span><span class="menu-item-price">26.000 Ar</span></li>
+          </ul>
+
+          <div class="menu-info-bar menu-info-bar-soft">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+            <span data-i18n="menu_pizza_supplements">Suppléments : Œuf 4.000 · Champignon 5.000 · Crème fraîche 6.000 · Anchois / Fromage / Jambon 7.000 Ar</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESSERTS -->
+      <div class="menu-panel" role="tabpanel" id="tab-desserts" aria-labelledby="tab-btn-desserts" hidden>
+        <div class="menu-panel-inner">
+          <div class="menu-category-header">
+            <p class="menu-category-label">✨ <span data-i18n="menu_desserts_subtitle">La touche finale d'un voyage culinaire</span></p>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-item"><span class="menu-item-name">Glaces <span class="menu-item-detail">Vanille / Chocolat</span></span><span class="menu-item-dots"></span><span class="menu-item-price">8.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Sorbet selon les fruits de saison</span><span class="menu-item-dots"></span><span class="menu-item-price">8.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Salade de fruits</span><span class="menu-item-dots"></span><span class="menu-item-price">10.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Bananes au caramel</span><span class="menu-item-dots"></span><span class="menu-item-price">12.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Bananes flambées</span><span class="menu-item-dots"></span><span class="menu-item-price">14.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Flan à la vanille et au caramel</span><span class="menu-item-dots"></span><span class="menu-item-price">15.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Coupe exotique</span><span class="menu-item-dots"></span><span class="menu-item-price">15.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Banana split</span><span class="menu-item-dots"></span><span class="menu-item-price">16.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Mousse au chocolat</span><span class="menu-item-dots"></span><span class="menu-item-price">18.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Coupe negresco</span><span class="menu-item-dots"></span><span class="menu-item-price">18.000 Ar</span></li>
+            <li class="menu-item"><span class="menu-item-name">Fondant au chocolat et glace vanille</span><span class="menu-item-dots"></span><span class="menu-item-price">20.000 Ar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer of interactive menu -->
+      <div class="menu-footer">
+        <p class="menu-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+          <span data-i18n="menu_note_arrivage">Les plats marqués « Arrivage du jour » sont disponibles selon l'humeur des pêcheurs et l'arrivage du jour.</span>
+        </p>
+        <button class="btn btn-outline-teal menu-see-all-btn" id="menu-open-modal" aria-haspopup="dialog" data-i18n="menu_voir_tout">Voir la carte complète</button>
+      </div>
+
+    </div><!-- /menu-interactive -->
+  </section>
+
+  <!-- =============================================
+       FULL MENU MODAL
+       ============================================= -->
+  <div class="menu-modal" id="menu-modal" role="dialog" aria-modal="true" aria-labelledby="menu-modal-title" hidden>
+    <div class="menu-modal-backdrop" id="menu-modal-backdrop"></div>
+    <div class="menu-modal-container">
+      <div class="menu-modal-header">
+        <h2 class="menu-modal-title" id="menu-modal-title" data-i18n="menu_modal_title">La Carte Complète</h2>
+        <button class="menu-modal-close" id="menu-modal-close" aria-label="Fermer la carte">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="menu-modal-body" id="menu-modal-body">
+
+        <!-- Modal: Fruits de Mer -->
+        <details class="menu-modal-section" open>
+          <summary class="menu-modal-section-title">🦐 Fruits de Mer <span class="menu-modal-section-badge" data-i18n="menu_specialite_short">Spécialité</span></summary>
+          <div class="menu-modal-featured">
+            <span class="menu-modal-featured-label" data-i18n="menu_featured_badge">À partager · Pour 2 personnes</span>
+            <span class="menu-modal-featured-name">Le Plateau Royal</span>
+            <span class="menu-modal-featured-desc">Langoustes · Cigales · Crevettes · Calamar · Poisson · Crabes</span>
+            <span class="menu-modal-featured-price">160.000 Ar</span>
+          </div>
+          <ul class="menu-modal-list">
+            <li><span>Brochettes de poisson sauce combava</span><span>32.000 Ar</span></li>
+            <li><span>Filet de poisson sauce estragon</span><span>32.000 Ar</span></li>
+            <li><span>Filet de poisson meunière</span><span>32.000 Ar</span></li>
+            <li><span>Thon frit au citron</span><span>32.000 Ar</span></li>
+            <li><span>Crabe sauté à l'ail et au persil</span><span>35.000 Ar</span></li>
+            <li><span>Crevettes curry coco</span><span>38.000 Ar</span></li>
+            <li><span>Crevettes sautées à l'ail et au persil</span><span>38.000 Ar</span></li>
+            <li><span>Calamar grillé à la moutarde</span><span>38.000 Ar</span></li>
+            <li><span>Calamar sauté à l'ail et au persil</span><span>38.000 Ar</span></li>
+            <li><span>Cigales de mer grillées</span><span>60.000 Ar</span></li>
+            <li><span>Langoustes grillées</span><span>60.000 Ar</span></li>
+            <li><span>Curry de langoustes</span><span>60.000 Ar</span></li>
+          </ul>
+        </details>
+
+        <!-- Modal: Entrées & Salades -->
+        <details class="menu-modal-section">
+          <summary class="menu-modal-section-title">🥗 Entrées &amp; Salades</summary>
+          <p class="menu-modal-sub">Les Salades</p>
+          <ul class="menu-modal-list">
+            <li><span>Salade de poulet aux croûtons</span><span>20.000 Ar</span></li>
+            <li><span>Salade à la grecque façon Étoile de Mer ✦</span><span>20.000 Ar</span></li>
+            <li><span>Salade niçoise façon Étoile de Mer</span><span>20.000 Ar</span></li>
+            <li><span>Salade au thon fumé ✦</span><span>22.000 Ar</span></li>
+            <li><span>Salade de fruits de mer ✦</span><span>22.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Les Entrées</p>
+          <ul class="menu-modal-list">
+            <li><span>Soupe chinoise</span><span>20.000 Ar</span></li>
+            <li><span>Potage de légumes aux croûtons</span><span>20.000 Ar</span></li>
+            <li><span>Carpaccio de zébu ou poisson</span><span>20.000 Ar</span></li>
+            <li><span>Gratin de fruits de mer</span><span>22.000 Ar</span></li>
+            <li><span>Crabe farci ✦</span><span>22.000 Ar</span></li>
+            <li><span>Cocktail de crevettes ✦</span><span>22.000 Ar</span></li>
+            <li><span>Assiette de thon fumé ✦</span><span>22.000 Ar</span></li>
+            <li><span>Camembert pané</span><span>22.000 Ar</span></li>
+            <li><span>Escargots au beurre d'ail et persil</span><span>28.000 Ar</span></li>
+            <li><span>Tapas terre-mer</span><span>25.000 Ar</span></li>
+            <li><span>Nems aux fruits de mer</span><span>20.000 Ar</span></li>
+            <li><span>Crudités</span><span>15.000 Ar</span></li>
+            <li><span>Salade niçoise</span><span>25.000 Ar</span></li>
+          </ul>
+        </details>
+
+        <!-- Modal: Pâtes -->
+        <details class="menu-modal-section">
+          <summary class="menu-modal-section-title">🍝 Pâtes</summary>
+          <ul class="menu-modal-list">
+            <li><span>Spaghetti bolognaise</span><span>22.000 Ar</span></li>
+            <li><span>Penne ou fusilli au pesto</span><span>22.000 Ar</span></li>
+            <li><span>Spaghetti aux fruits de mer ✦</span><span>30.000 Ar</span></li>
+            <li><span>Spaghetti carbonara au thon fumé ✦</span><span>30.000 Ar</span></li>
+          </ul>
+        </details>
+
+        <!-- Modal: Viandes -->
+        <details class="menu-modal-section">
+          <summary class="menu-modal-section-title">🥩 Viandes &amp; Volailles</summary>
+          <p class="menu-modal-note-inline">Sauces au choix : Moutarde · Poivre vert · Bleu et camembert</p>
+          <p class="menu-modal-sub">Les Viandes</p>
+          <ul class="menu-modal-list">
+            <li><span>Filet de zébu poêlé</span><span>32.000 Ar</span></li>
+            <li><span>Médaillon de zébu poêlé</span><span>35.000 Ar</span></li>
+            <li><span>Pavé de zébu poêlé</span><span>35.000 Ar</span></li>
+            <li><span>Brochettes de filet de zébu</span><span>38.000 Ar</span></li>
+            <li><span>Cheese burger / frites</span><span>23.000 Ar</span></li>
+            <li><span>Roast-beef / frites / salade</span><span>38.000 Ar</span></li>
+            <li><span>Steak à l'oignon</span><span>33.000 Ar</span></li>
+            <li><span>Côte de zébu grillée</span><span>35.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Les Volailles</p>
+          <ul class="menu-modal-list">
+            <li><span>Nuggets de poulet / frites</span><span>32.000 Ar</span></li>
+            <li><span>Brochettes de poulet</span><span>32.000 Ar</span></li>
+            <li><span>Cuisse de poulet grillée à l'indienne</span><span>32.000 Ar</span></li>
+            <li><span>Émincé de magret de canard au miel</span><span>50.000 Ar</span></li>
+            <li><span>Magret de canard poêlé</span><span>50.000 Ar</span></li>
+            <li><span>Émincé de poulet aux champignons</span><span>32.000 Ar</span></li>
+          </ul>
+        </details>
+
+        <!-- Modal: Saveurs Malagasy -->
+        <details class="menu-modal-section">
+          <summary class="menu-modal-section-title">🇲🇬 Saveurs Malagasy</summary>
+          <p class="menu-modal-note-inline">Accompagnements au choix : Tsaramaso · Kabaro · Ro matsatso · Rougail</p>
+          <ul class="menu-modal-list">
+            <li><span>Romazava de zébu</span><span>25.000 Ar</span></li>
+            <li><span>Henakisoa vitra et riz</span><span>25.000 Ar</span></li>
+            <li><span>Capitaine entier frit et riz</span><span>35.000 Ar</span></li>
+            <li><span>Kitoza &amp; Vary amin'ny anana</span><span>28.000 Ar</span></li>
+            <li><span>Akoho gasy vitra et riz</span><span>28.000 Ar</span></li>
+            <li><span>Vorontsiloza vitra</span><span>32.000 Ar</span></li>
+            <li><span>Langue sauce piquante aux petits pois</span><span>25.000 Ar</span></li>
+          </ul>
+        </details>
+
+        <!-- Modal: Cuisine Indienne -->
+        <details class="menu-modal-section">
+          <summary class="menu-modal-section-title">🇮🇳 Cuisine Indienne</summary>
+          <p class="menu-modal-sub">Les Naans</p>
+          <ul class="menu-modal-list">
+            <li><span>Naan nature</span><span>6.000 Ar</span></li>
+            <li><span>Naan fromage</span><span>10.000 Ar</span></li>
+            <li><span>Naan chicken</span><span>20.000 Ar</span></li>
+            <li><span>Naan crevettes</span><span>22.000 Ar</span></li>
+            <li><span>Naan brochettes</span><span>17.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Les Paratas</p>
+          <ul class="menu-modal-list">
+            <li><span>Parata nature</span><span>6.000 Ar</span></li>
+            <li><span>Chicken parata</span><span>20.000 Ar</span></li>
+            <li><span>Kheema parata</span><span>20.000 Ar</span></li>
+            <li><span>Aloo parata</span><span>17.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Les Currys &amp; Spécialités</p>
+          <ul class="menu-modal-list">
+            <li><span>Butter chicken</span><span>32.000 Ar</span></li>
+            <li><span>Chicken tikka curry</span><span>32.000 Ar</span></li>
+            <li><span>Chicken curry</span><span>32.000 Ar</span></li>
+            <li><span>Chicken biryani</span><span>32.000 Ar</span></li>
+            <li><span>Chicken tikka biryani</span><span>32.000 Ar</span></li>
+            <li><span>Chicken fry rice</span><span>22.000 Ar</span></li>
+            <li><span>Légumes curry</span><span>22.000 Ar</span></li>
+          </ul>
+        </details>
+
+        <!-- Modal: Pizzas -->
+        <details class="menu-modal-section">
+          <summary class="menu-modal-section-title">🍕 Pizzas au Feu de Bois</summary>
+          <p class="menu-modal-sub">Végétariennes</p>
+          <ul class="menu-modal-list">
+            <li><span>Classica <em>Fromage, tomates</em></span><span>25.000 Ar</span></li>
+            <li><span>Végétarienne <em>Aubergine, oignon, poivron, fromage</em></span><span>26.000 Ar</span></li>
+            <li><span>Margarita <em>Fromage, olives noires</em></span><span>26.000 Ar</span></li>
+            <li><span>Coquelicot <em>Fromage, œuf</em></span><span>26.000 Ar</span></li>
+            <li><span>Chêne <em>Champignon de Paris, fromage</em></span><span>28.000 Ar</span></li>
+            <li><span>Cachemire <em>Maïs doux, poivrons, oignons, fromage</em></span><span>28.000 Ar</span></li>
+            <li><span>Quatre Fromage <em>Camembert, bleu</em></span><span>33.000 Ar</span></li>
+            <li><span>Quatre Fromage <em>Camembert</em></span><span>29.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Fruits de Mer</p>
+          <ul class="menu-modal-list">
+            <li><span>Cuivre <em>Thon, fromage</em></span><span>28.000 Ar</span></li>
+            <li><span>Neptune <em>Thon, olives noires, fromage</em></span><span>28.000 Ar</span></li>
+            <li><span>Californienne <em>Sardines, oignons, fromage</em></span><span>28.000 Ar</span></li>
+            <li><span>Marina <em>Crevettes, calamars, thon, fromage</em></span><span>29.000 Ar</span></li>
+            <li><span>Pacifico <em>Thon fumé, crème fraîche, fromage</em></span><span>29.000 Ar</span></li>
+            <li><span>Altono <em>Crevettes, thon, câpres, ail, fromage</em></span><span>29.000 Ar</span></li>
+            <li><span>Corail <em>Crevettes, fromage</em></span><span>29.000 Ar</span></li>
+            <li><span>Sicilienne <em>Anchois, olives noires, fromage</em></span><span>30.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Viandes &amp; Poulets</p>
+          <ul class="menu-modal-list">
+            <li><span>Chicken 1er choix <em>Poulet, champignon, crème fraîche</em></span><span>28.000 Ar</span></li>
+            <li><span>Chicken 2ème choix <em>Poulet, poivron, oignon, fromage</em></span><span>26.000 Ar</span></li>
+            <li><span>Chinchilla <em>Viande hachée, fromage</em></span><span>26.000 Ar</span></li>
+            <li><span>Cheri <em>Jambon de volaille, fromage</em></span><span>28.000 Ar</span></li>
+            <li><span>Capella <em>Merguez, poivrons, oignons, fromage</em></span><span>29.000 Ar</span></li>
+            <li><span>Presto <em>Jambon, poivrons, oignons, fromage</em></span><span>30.000 Ar</span></li>
+            <li><span>Napolitain <em>Jambon, poivrons, oignons, œuf</em></span><span>30.000 Ar</span></li>
+            <li><span>Reine <em>Jambon, champignon de Paris, fromage</em></span><span>30.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Exotiques</p>
+          <ul class="menu-modal-list">
+            <li><span>Hawaïenne 1er choix <em>Jambon, ananas, fromage</em></span><span>28.000 Ar</span></li>
+            <li><span>Hawaïenne 2nd choix <em>Ananas, tomates, fromage</em></span><span>26.000 Ar</span></li>
+            <li><span>Antillaise <em>Poulet, ananas, poivron, oignons</em></span><span>30.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-sub">Sucrées</p>
+          <ul class="menu-modal-list">
+            <li><span>Pizza Banane-Choco</span><span>25.000 Ar</span></li>
+            <li><span>Pizza Poire-Cannelle</span><span>26.000 Ar</span></li>
+            <li><span>Pizza Poire-Choco-Cannelle</span><span>26.000 Ar</span></li>
+          </ul>
+          <p class="menu-modal-note-inline">Suppléments : Œuf 4.000 · Champignon 5.000 · Crème fraîche 6.000 · Anchois / Fromage / Jambon 7.000 Ar</p>
+        </details>
+
+        <!-- Modal: Desserts -->
+        <details class="menu-modal-section">
+          <summary class="menu-modal-section-title">🍨 Desserts</summary>
+          <ul class="menu-modal-list">
+            <li><span>Glaces (vanille / chocolat)</span><span>8.000 Ar</span></li>
+            <li><span>Sorbet selon les fruits de saison</span><span>8.000 Ar</span></li>
+            <li><span>Salade de fruits</span><span>10.000 Ar</span></li>
+            <li><span>Bananes au caramel</span><span>12.000 Ar</span></li>
+            <li><span>Bananes flambées</span><span>14.000 Ar</span></li>
+            <li><span>Flan à la vanille et au caramel</span><span>15.000 Ar</span></li>
+            <li><span>Coupe exotique</span><span>15.000 Ar</span></li>
+            <li><span>Banana split</span><span>16.000 Ar</span></li>
+            <li><span>Mousse au chocolat</span><span>18.000 Ar</span></li>
+            <li><span>Coupe negresco</span><span>18.000 Ar</span></li>
+            <li><span>Fondant au chocolat et glace vanille</span><span>20.000 Ar</span></li>
+          </ul>
+        </details>
+
+        <!-- Note footer -->
+        <p class="menu-modal-arrivage-note">
+          ✦ <span data-i18n="menu_note_arrivage">Les plats marqués « Arrivage du jour » sont disponibles selon l'humeur des pêcheurs et l'arrivage du jour.</span>
+        </p>
+
+      </div><!-- /menu-modal-body -->
+      <button class="menu-modal-scroll-top" id="menu-modal-scroll-top" aria-label="Remonter en haut">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+      </button>
+    </div><!-- /menu-modal-container -->
+  </div><!-- /menu-modal -->
+
+  <!-- =============================================
+       5. ÉVÉNEMENTS
+       ============================================= -->
+  <section class="events" id="evenements">
+    <div class="events-header reveal">
+      <p class="section-label" data-i18n="events_label">Événements</p>
+      <h2 class="section-heading" data-i18n="events_heading">Votre événement d'exception</h2>
+      <p class="section-text" style="margin-inline: auto;" data-i18n="events_text">L'Étoile de Mer Toliara est bien plus qu'un restaurant — c'est un lieu de vie et de célébration. Avec notre terrasse spacieuse, notre scène de spectacle et notre équipe dédiée, nous accueillons tous vos événements.</p>
+    </div>
+
+    <div class="events-grid reveal-stagger">
+      <article class="event-card">
+        <img src="./assets/concert.jpg" alt="Concert en plein air à L'Étoile de Mer Toliara avec guirlandes lumineuses et palmiers" width="600" height="400" loading="lazy">
+        <div class="event-card-overlay"></div>
+        <div class="event-card-content">
+          <h3 class="event-card-title" data-i18n="event_diner_title">Dîners Dansants</h3>
+          <p class="event-card-desc" data-i18n="event_diner_desc">Soirées inoubliables mêlant gastronomie et danse sous les étoiles.</p>
+        </div>
+      </article>
+      <article class="event-card">
+        <img src="./assets/artiste-2.jpg" alt="Artiste sur scène lors d'un concert à L'Étoile de Mer Toliara" width="600" height="400" loading="lazy">
+        <div class="event-card-overlay"></div>
+        <div class="event-card-content">
+          <h3 class="event-card-title" data-i18n="event_concert_title">Concerts &amp; Spectacles</h3>
+          <p class="event-card-desc" data-i18n="event_concert_desc">Artistes malgaches et internationaux sur notre scène en plein air.</p>
+        </div>
+      </article>
+      <article class="event-card">
+        <img src="./assets/tables-gala.jpg" alt="Tables blanches élégantes sous les arbres avec guirlandes lumineuses pour un gala" width="600" height="400" loading="lazy">
+        <div class="event-card-overlay"></div>
+        <div class="event-card-content">
+          <h3 class="event-card-title" data-i18n="event_mariage_title">Mariages &amp; Célébrations</h3>
+          <p class="event-card-desc" data-i18n="event_mariage_desc">Votre plus beau jour dans un cadre tropical paradisiaque.</p>
+        </div>
+      </article>
+      <article class="event-card">
+        <img src="./assets/seminaire-real.jpg" alt="Séminaire avec présentation et participants à L'Étoile de Mer Toliara" width="600" height="400" loading="lazy">
+        <div class="event-card-overlay"></div>
+        <div class="event-card-content">
+          <h3 class="event-card-title" data-i18n="event_seminaire_title">Séminaires &amp; Corporate</h3>
+          <p class="event-card-desc" data-i18n="event_seminaire_desc">Un cadre inspirant pour vos réunions d'entreprise et team building.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="events-footer reveal">
+      <p data-i18n="events_footer">Événements festifs, culturels, anniversaires… Contactez-nous pour créer votre moment unique.</p>
+      <a href="#contact" class="btn btn-coral" data-i18n="events_cta">Organiser mon événement</a>
+    </div>
+  </section>
+
+  <!-- =============================================
+       6. L'AMBIANCE — Now with PHOTO cards
+       ============================================= -->
+  <section class="ambiance" id="ambiance">
+    <div class="ambiance-header reveal">
+      <p class="section-label" data-i18n="ambiance_label">L'Ambiance</p>
+      <h2 class="section-heading" data-i18n="ambiance_heading">Plus qu'un restaurant, une expérience</h2>
+    </div>
+    <div class="ambiance-grid reveal-stagger">
+      <article class="ambiance-card">
+        <div class="ambiance-card-img">
+          <img src="./assets/patio.jpg" alt="Terrasse de nuit avec coussins colorés et palmiers à L'Étoile de Mer Toliara" width="600" height="400" loading="lazy">
+          <div class="ambiance-card-overlay"></div>
+        </div>
+        <div class="ambiance-card-body">
+          <h3 class="ambiance-card-title" data-i18n="amb_terrasse_title">Terrasse Tropicale</h3>
+          <p class="ambiance-card-desc" data-i18n="amb_terrasse_desc">Dînez sous les étoiles, entouré de végétation luxuriante et d'éclairages d'ambiance.</p>
+        </div>
+      </article>
+      <article class="ambiance-card">
+        <div class="ambiance-card-img">
+          <img src="./assets/artiste-1.jpg" alt="Artiste sur scène avec effets de fumée à L'Étoile de Mer Toliara" width="600" height="400" loading="lazy">
+          <div class="ambiance-card-overlay"></div>
+        </div>
+        <div class="ambiance-card-body">
+          <h3 class="ambiance-card-title" data-i18n="amb_musique_title">Musique Live</h3>
+          <p class="ambiance-card-desc" data-i18n="amb_musique_desc">Profitez de concerts et de soirées animées par les meilleurs artistes malgaches.</p>
+        </div>
+      </article>
+      <article class="ambiance-card">
+        <div class="ambiance-card-img">
+          <img src="./assets/billards.jpg" alt="Salle de billard et lounge L'Étoile de Mer Billiards & Lounge" width="600" height="400" loading="lazy">
+          <div class="ambiance-card-overlay"></div>
+        </div>
+        <div class="ambiance-card-body">
+          <h3 class="ambiance-card-title" data-i18n="amb_lounge_title">Espace Lounge</h3>
+          <p class="ambiance-card-desc" data-i18n="amb_lounge_desc">Détendez-vous dans notre espace lounge avec billard et cocktails.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- =============================================
+       7. GALERIE — "La Vie à L'Étoile de Mer"
+       ============================================= -->
+  <section class="galerie" id="galerie">
+    <div class="galerie-header reveal">
+      <p class="section-label" data-i18n="galerie_label">Galerie</p>
+      <h2 class="section-heading" data-i18n="galerie_heading">La vie à L'Étoile de Mer</h2>
+    </div>
+    <div class="galerie-strip reveal">
+      <div class="galerie-track">
+        <div class="galerie-item">
+          <img src="./assets/familial.jpg" alt="Enfant posant devant la fresque d'ailes colorées de L'Étoile de Mer Toliara" width="400" height="300" loading="lazy">
+          <span class="galerie-caption" data-i18n="gal_famille">Un lieu pour toute la famille</span>
+        </div>
+        <div class="galerie-item">
+          <img src="./assets/equipe.jpg" alt="L'équipe de L'Étoile de Mer Toliara au complet" width="400" height="300" loading="lazy">
+          <span class="galerie-caption" data-i18n="gal_equipe">Notre équipe</span>
+        </div>
+        <div class="galerie-item">
+          <img src="./assets/livraison.jpg" alt="Tuk-tuk rose de livraison L'Étoile de Mer Toliara" width="400" height="300" loading="lazy">
+          <span class="galerie-caption" data-i18n="gal_livraison">Livraison à domicile</span>
+        </div>
+        <div class="galerie-item">
+          <img src="./assets/enseigne.jpg" alt="Enseigne illuminée du restaurant Étoile de Mer la nuit" width="400" height="300" loading="lazy">
+          <span class="galerie-caption" data-i18n="gal_enseigne">Notre enseigne</span>
+        </div>
+        <!-- Duplicate set for seamless infinite scroll loop -->
+        <div class="galerie-item" aria-hidden="true">
+          <img src="./assets/familial.jpg" alt="" width="400" height="300" loading="lazy">
+          <span class="galerie-caption">Un lieu pour toute la famille</span>
+        </div>
+        <div class="galerie-item" aria-hidden="true">
+          <img src="./assets/equipe.jpg" alt="" width="400" height="300" loading="lazy">
+          <span class="galerie-caption">Notre équipe</span>
+        </div>
+        <div class="galerie-item" aria-hidden="true">
+          <img src="./assets/livraison.jpg" alt="" width="400" height="300" loading="lazy">
+          <span class="galerie-caption">Livraison à domicile</span>
+        </div>
+        <div class="galerie-item" aria-hidden="true">
+          <img src="./assets/enseigne.jpg" alt="" width="400" height="300" loading="lazy">
+          <span class="galerie-caption">Notre enseigne</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       8. HORAIRES & CONTACT
+       ============================================= -->
+  <section class="contact" id="contact">
+    <div class="contact-header reveal">
+      <p class="section-label" data-i18n="contact_label">Horaires &amp; Contact</p>
+      <h2 class="section-heading" data-i18n="contact_heading">Venez nous retrouver</h2>
+    </div>
+    <div class="contact-grid">
+      <!-- Hours -->
+      <div class="reveal">
+        <table class="hours-table" aria-label="Horaires d'ouverture">
+          <tbody>
+            <tr>
+              <td data-i18n="day_lundi">Lundi</td>
+              <td>10h30 – 22h30</td>
+            </tr>
+            <tr>
+              <td data-i18n="day_mardi">Mardi</td>
+              <td class="hours-closed" data-i18n="day_ferme">FERMÉ</td>
+            </tr>
+            <tr>
+              <td data-i18n="day_mercredi">Mercredi</td>
+              <td>10h30 – 22h30</td>
+            </tr>
+            <tr>
+              <td data-i18n="day_jeudi">Jeudi</td>
+              <td>10h30 – 22h30</td>
+            </tr>
+            <tr>
+              <td data-i18n="day_vendredi">Vendredi</td>
+              <td>10h30 – 22h30</td>
+            </tr>
+            <tr>
+              <td data-i18n="day_samedi">Samedi</td>
+              <td>10h30 – 22h30</td>
+            </tr>
+            <tr>
+              <td data-i18n="day_dimanche">Dimanche</td>
+              <td>10h30 – 22h30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Contact info -->
+      <div class="contact-info reveal">
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span>Boulevard Lyautey, Toliara (Tuléar), Madagascar</span>
+        </div>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <a href="tel:+261386634081">+261 38 66 340 81</a>
+        </div>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          <a href="mailto:etoiledemertoliara@gmail.com">etoiledemertoliara@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+          <a href="https://www.instagram.com/etoiledemertoliara/" target="_blank" rel="noopener noreferrer">@etoiledemertoliara</a>
+        </div>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+          <a href="https://www.facebook.com/Jamet.sandrine601/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+
+        <div class="social-links" aria-label="Réseaux sociaux">
+          <a href="https://www.instagram.com/etoiledemertoliara/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/Jamet.sandrine601/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+        </div>
+
+        <a href="https://maps.google.com/?q=Boulevard+Lyautey+Toliara+Madagascar" target="_blank" rel="noopener noreferrer" class="maps-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span data-i18n="contact_maps">Ouvrir dans Google Maps →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer">
+    <div class="footer-logo" aria-hidden="true">
+      <img src="./assets/logo-etoile-de-mer.jpg" alt="Logo Étoile de Mer" class="footer-logo-img">
+    </div>
+    <p class="footer-text">© 2026 L'Étoile de Mer Toliara — Madagascar — <span data-i18n="footer_since">Depuis 1987</span></p>
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/etoiledemertoliara/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+      </a>
+      <a href="https://www.facebook.com/Jamet.sandrine601/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- i18n translations -->
+  <script src="./i18n.js"></script>
+  <!-- App script (deferred) -->
+  <script src="./app.js" defer></script>
+</body>
+</html>
