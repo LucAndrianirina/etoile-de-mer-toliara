@@ -97,7 +97,7 @@
 
       /* Contact */
       contact_label: 'Horaires & Contact',
-      contact_heading: 'Venez nous retrouver',
+      contact_heading: 'On vous attend',
       contact_maps: 'Ouvrir dans Google Maps →',
       day_lundi: 'Lundi',
       day_mardi: 'Mardi',
