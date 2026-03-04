@@ -535,8 +535,8 @@
 /* Hero logo image */
 @keyframes starfish-roll {
   0%   { transform: rotate(0deg); }
-  45%  { transform: rotate(720deg); }
-  55%  { transform: rotate(720deg); }
+  29%  { transform: rotate(720deg); }
+  71%  { transform: rotate(720deg); }
   100% { transform: rotate(0deg); }
 }
 
@@ -552,7 +552,7 @@
   object-fit: cover;
   box-shadow: 0 4px 20px rgba(232,99,74,0.3);
   border: 3px solid rgba(255,248,240,0.3);
-  animation: starfish-roll 6s ease-in-out infinite !important;
+  animation: starfish-roll 7s ease-in-out infinite !important;
   transform-origin: center center;
 }
 
