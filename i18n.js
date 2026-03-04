@@ -17,7 +17,7 @@
       hero_cta_carte: 'Découvrir notre carte',
       hero_cta_reserver: 'Réserver une table',
       hero_cta_evenement: 'Organiser un événement',
-      hero_cta_livraison: 'Livraison',
+      hero_cta_livraison: 'Commander pour Livraison',
 
       /* Notre Histoire (Story) */
       story_label: 'Notre Histoire',
@@ -177,7 +177,7 @@
       hero_cta_carte: 'Jereo ny lisitry ny sakafo',
       hero_cta_reserver: 'Hanokana latabatra',
       hero_cta_evenement: 'Handamina hetsika',
-      hero_cta_livraison: 'Fanaterana',
+      hero_cta_livraison: 'Mandefa handraisana fanaterana',
 
       /* Notre Histoire (Story) */
       story_label: 'Ny Tantaranay',
@@ -337,7 +337,7 @@
       hero_cta_carte: 'Discover our menu',
       hero_cta_reserver: 'Book a table',
       hero_cta_evenement: 'Plan an event',
-      hero_cta_livraison: 'Delivery',
+      hero_cta_livraison: 'Order for Delivery',
 
       /* Notre Histoire (Story) */
       story_label: 'Our Story',
