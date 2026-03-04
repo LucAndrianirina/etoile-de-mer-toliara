@@ -888,7 +888,7 @@
    ============================================= */
 .lieu {
   padding: clamp(2.75rem, 5vw, 4.5rem) var(--space-4);
-  background: var(--color-surface);
+  background: var(--color-surface-offset);
 }
 
 .lieu-content {
@@ -1179,7 +1179,7 @@
    ============================================= */
 .events {
   padding: clamp(2.75rem, 5vw, 4.5rem) var(--space-4);
-  background: var(--color-surface);
+  background: var(--color-surface-offset);
 }
 
 .events-header {
@@ -1372,7 +1372,7 @@
    ============================================= */
 .galerie {
   padding: clamp(2.75rem, 5vw, 4.5rem) var(--space-4);
-  background: var(--color-surface);
+  background: var(--color-bg);
 }
 
 .galerie-header {
@@ -1430,7 +1430,7 @@
    ============================================= */
 .contact {
   padding: clamp(2.75rem, 5vw, 4.5rem) var(--space-4);
-  background: var(--color-bg);
+  background: var(--color-surface-offset);
 }
 
 .contact-header {
@@ -1724,7 +1724,7 @@
 
 .menu-section {
   padding: clamp(var(--space-10), 6vw, var(--space-20)) var(--space-4);
-  background: var(--color-bg);
+  background: var(--color-surface-offset);
 }
 
 .menu-section-header {
